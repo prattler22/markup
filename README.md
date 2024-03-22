@@ -136,7 +136,7 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 1. `id`
 2. `class`
 3. `name`
-4. `data-\\\\\\\*`
+4. `data-*`
 5. `src`, `for`, `type`, `href`,`value`
 6. `title`,`alt`
 7. `role`,`aria-*`
