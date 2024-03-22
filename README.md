@@ -138,10 +138,11 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 3. `name`
 4. `data-*`
 5. `src`, `for`, `type`, `href`,`value`
-6. `title`,`alt`
-7. `role`,`aria-*`
-8. `tabindex`
-9. `style`
+6. `alt`
+7. `title`,
+8. `role`,`aria-*`
+9. `tabindex`
+10. `style`
 
 ```html
 <a id="..." class="..." href="#">Example link</a>
