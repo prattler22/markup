@@ -1,4 +1,4 @@
-# 마크업 가이드
+# 마크업 가이드(HTML/CSS)
 
 유연하고 지속 가능한 코드 작성을 가이드입니다. [Code Guide by @mdo](http://mdo.github.io/code-guide)를 기반으로 [레진 마크업 가이드라인](https://github.com/namomo/std_fork_markup-guide) 참조하여 [Gosirang](https://github.com/prattler22) 이 나름 만들어봤습니다.
 
