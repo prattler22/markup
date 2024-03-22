@@ -1,7 +1,3 @@
-# markup
-markup guide
-
-
 # 마크업 가이드
 
 유연하고 지속 가능한 코드 작성을 가이드입니다. [Code Guide by @mdo](http://mdo.github.io/code-guide)를 기반으로 [Gosirang](https://github.com/prattler22) 이 초안 작성했습니다.
