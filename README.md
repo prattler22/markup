@@ -32,13 +32,13 @@
 
 ---
 
-## 기본 규칙 <a href="#basic">#</a>
+## 기본 규칙 <a id="basic" href="#basic">#</a>
 
 W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모든 코드 줄은 기여자 수에 관계없이 한 사람이 작성한 것처럼 나타나면 좋습니다.(Golden rule).
 
 ---
 
-## 에디터 설정 [#](#editor)
+## 에디터 설정 <a href="#" id="#editor">#</a>
 
 규칙을 준수하기 위해 에디터 환경을 설정해 둡니다.
 
@@ -49,9 +49,9 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모
 
 ---
 
-## HTML [#](#html)
+## HTML <a href="#" id="#html">#</a>
 
-### HTML 문법 [#](#html-syntax)
+### HTML 문법 <a href="#" id="#html-syntax">#</a>
 
 * 태그는 소문자를 사용합니다.
 * 속성(attr)값에는 항상 큰 따옴표를 사용합니다.
@@ -70,7 +70,7 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모
 </html>
 ```
 
-### HTML5 doctype [#](#html-doctype)
+### HTML5 doctype <a href="#" id="#html-doctype">#</a>
 
 모든 HTML 페이지 시작 지점에 공백 없이 HTML5 문서 타입을 선언합니다.
 
@@ -81,7 +81,7 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모
 </html>
 ```
 
-### 언어(lang) 속성 [#](#html-lang)
+### 언어(lang) 속성 <a href="#" id="#html-lang">#</a>
 
 문서 루트인 `html` 요소에 `lang` 속성을 추가합니다.
 
@@ -93,7 +93,7 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모
 <html lang="ko">
 ```
 
-### 인코딩 설정 [#](#html-charset)
+### 인코딩 설정 <a href="#" id="#html-charset">#</a>
 
 문자열 인코딩을 명시적으로 선언합니다.
 
@@ -103,7 +103,7 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모
 </head>
 ```
 
-### IE 호환모드 설정 [#](#html-ie-compatible)
+### IE 호환모드 설정 <a href="#" id="#html-ie-compatible">#</a>
 
 인터넷 익스플로러가 항상 최신 버전의 레이아웃 엔진을 사용하여 문서를 렌더링하도록 지정합니다.
 
@@ -111,7 +111,7 @@ W3C 문법과 마크업 가이드라인을 지켜 코드를 작성합니다. 모
 <meta http-equiv="X-UA-Compatible" content="IE=Edge">
 ```
 
-### CSS, JavaScript 삽입 [#](#html-type-attr)
+### CSS, JavaScript 삽입 <a href="#" id="#html-type-attr">#</a>
 
 CSS와 JavaScript를 불러올 때 `type` 속성을 생략합니다.
 
@@ -126,7 +126,7 @@ CSS와 JavaScript를 불러올 때 `type` 속성을 생략합니다.
 <script src="code-guide.js"></script>
 ```
 
-### 속성(attr) 선언 순서 [#](#html-attr-order)
+### 속성(attr) 선언 순서 <a href="#" id="#html-attr-order">#</a>
 
 HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 
@@ -150,7 +150,7 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 <img src="..." alt="..." title="...">
 ```
 
-### Boolean 속성 [#](#html-boolean-attr)
+### Boolean 속성 <a href="#" id="#html-boolean-attr">#</a>
 
 불리언 속성의 값은 지정하지 않습니다.
 
@@ -160,7 +160,7 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 <option value="1" selected>1</option>
 ```
 
-### 마크업 간소화 [#](#html-simplification)
+### 마크업 간소화 <a href="#" id="#html-simplification">#</a>
 
 모듈화를 고려하여 마크업은 간결하게 작성합니다.
 
@@ -174,7 +174,7 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 <img class="avatar" src="..." alt="...">
 ```
 
-### 문서 개요(HTML5 아웃라인) [#](#html-outline)
+### 문서 개요(HTML5 아웃라인) <a href="#" id="#html-outline">#</a>
 
 섹셔닝 요소와 헤딩 요소를 이용하여 문서 개요를 논리적으로 구성합니다. 섹셔닝 요소(`section`, `article`, `nav`, `aside`)에는 헤딩 요소를 명시적으로 사용합니다. 명시적 헤딩 기법은 `h1` 요소를 한 페이지에 한 번 사용합니다. 헤딩 요소만으로 문서 개요를 파악할 수 있어야 합니다.
 
@@ -202,15 +202,15 @@ HTML 태그 속성은 가독성을 위해 아래 순서대로 작성합니다.
 </body>
 ```
 
-### 완벽함보다는 실용성을 추구 [#](#html-pragmatism)
+### 완벽함보다는 실용성을 추구 <a href="#" id="#html-pragmatism">#</a>
 
 HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하기는 하지만 추가적인 노력이 필요하지 않은 범위내에서만 합니다. 최대한 간결한 코드를 사용하도록 합니다.
 
 ---
 
-## CSS [#](#css)
+## CSS <a href="#" id="#css">#</a>
 
-### CSS 문법 [#](#css-syntax)
+### CSS 문법 <a href="#" id="#css-syntax">#</a>
 
 * 모든 16진수 값은 소문자로 입력 예) #fff (소문자가 더 독특한 모양을 갖는 경향이 있어 스캔할 때 식별하기가 훨씬 쉽다)
 * `<link>` 요소를 사용. `<link>`에 비해 @import가 속도가 느리고 추가 페이지 요청이 추가되며 예상치 못한 다른 문제가 발생할 수 있다. \* Sass나 Less 같은 전처리 사용을 추천
@@ -340,7 +340,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 .footer__element { ... }
 ```
 
-### 속성(property) 선언 순서 [#](#css-property-order)
+### 속성(property) 선언 순서 <a href="#" id="#css-property-order">#</a>
 
 포지셔닝과 박스모델 관련 속성을 가장 먼저 작성하고 나머지는 뒤에 놓습니다.
 
@@ -380,7 +380,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 }
 ```
 
-### 미디어 쿼리 위치 [#](#css-media-query)
+### 미디어 쿼리 위치 <a href="#" id="#css-media-query">#</a>
 
 미디어쿼리는 관련 규칙이 있는 자리에 모아 놓습니다.
 
@@ -395,7 +395,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 }
 ```
 
-### 단일 속성 [#](#css-single-property)
+### 단일 속성 <a href="#" id="#css-single-property">#</a>
 
 하나의 속성만 포함한다면 개행하지 않습니다.
 
@@ -414,7 +414,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 }
 ```
 
-### 전처리문 중첩 [#](#css-preprocessor-nesting)
+### 전처리문 중첩 <a href="#" id="#css-preprocessor-nesting">#</a>
 
 과도하게 중첩하지 않습니다. 선택자 반복을 피하는 용도로만 중첩을 사용하십시오.
 
@@ -430,7 +430,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 }
 ```
 
-### 전처리문 계산식 [#](#css-preprocessor-calculation)
+### 전처리문 계산식 <a href="#" id="#css-preprocessor-calculation">#</a>
 
 계산식에 괄호를 사용합니다.
 
@@ -442,7 +442,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 .element { margin: 10px 0 (@variable * 2) 10px; }
 ```
 
-### 주석 [#](#css-comment)
+### 주석 <a href="#" id="#css-comment">#</a>
 
 주석은 맥락이나 목적을 전달한다. 단순히 구성요소나 클래스 이름을 반복할 필요는 없다. scss 파일은 한 줄 주석(`//`) 사용이 가능하지만 CSS 파일에 남지 않습니다.
 
@@ -460,7 +460,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 }
 ```
 
-### 클래스 작명 [#](#css-naming)
+### 클래스 작명 <a href="#" id="#css-naming">#</a>
 
 * 클래스 이름 규칙은 [BEM(Block Element Modifier)](http://getbem.com/naming/)스타일을 따릅니다.
 * 클래스 이름은 영문 카멜케이스(camelCase), 숫자, 더블 대시(`--`), 더블 언더스코어(`\\\\\\\_\\\\\\\_`)만 사용합니다.
@@ -483,7 +483,7 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 .blockName__ElementName--modifierName { ... }   // Element Modifier
 ```
 
-### 선택자 [#](#css-selector)
+### 선택자 <a href="#" id="#css-selector">#</a>
 
 * 타입 선택자를 사용하지 않습니다. 클래스 선택자를 사용합니다.
 * 선택자 우선순위(specificity)를 높이는 조합과 중첩을 사용하지 않습니다. 조합과 중첩은 3회를 초과하지 않습니다.
@@ -502,7 +502,7 @@ section.tweet > header.tweet__header { ... }
 .tweet__username { ... }
 ```
 
-### 컴포넌트 [#](#css-component)
+### 컴포넌트 <a href="#" id="#css-component">#</a>
 
 * 컴포넌트 별로 코드를 모아서 작성합니다.
 * 계층 구조의 순서에 따라 작성합니다.
