@@ -236,19 +236,18 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 .selector2 { ... }
 ```
 
-속성값에는 따옴표(`" "`)를 사용합니다.
+속성값에는 큰 따옴표(`" "`)를 사용합니다.
 
 ```css
 /* X */
 [type=text] { ... }
 [type="text"] { ... }
 { background: url(ex.png); }
-{ background: url("ex.png"); }
 
-/* O: 속성 선택자 속성값에 홑따옴표 사용 */
+/* O: 속성 선택자 속성값에 큰 따옴표 사용 */
 [type='text'] { ... }
 
-/* O: CSS 속성값에 홑따옴표 사용 */
+/* O: CSS 속성값에 큰 따옴표 사용 */
 { background: url('ex.png'); }
 ```
 
