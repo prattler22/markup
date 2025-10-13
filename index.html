@@ -4,76 +4,52 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>publishing list - 국가데이터인프라(1단계) 관리자</title>
+    <title>publishing(html) list</title>
     <style>
         .wrap {
             padding: 1rem
         }
-
         table {
             width: 100%;
             border-collapse: collapse;
             border-top: 3px solid #4876EE;
         }
-
         table th,
         table td {
             border: 1px solid #ddd;
             padding: 4px;
             font-size: 12px
         }
-
         tr:hover td {
             background: #ccc;
         }
-
         tr td:first-of-type,
         tr td:nth-child(8),
         tr td:nth-child(9),
         tr td:nth-child(10) {
             text-align: center;
         }
-
         tr td:nth-child(7) {
             color: #ddd;
         }
-
         a {
             display: inline-block;
             margin: .2rem 0;
             color: #000;
         }
-
         s a {
             text-decoration: line-through;
             color: #999;
         }
-
         a:hover {
             color: #fff
         }
-
         .guide {
             float: right;
         }
-
         .guide a {
             color: #000;
             text-decoration: underline
-        }
-
-        tr.caution {
-            background-color: #fe5f57;
-        }
-
-        td.caution {
-            color: red;
-        }
-
-        td p {
-            margin: 0 0 0 .5rem;
-            text-align: left;
-            white-space: nowrap;
         }
     </style>
 </head>
@@ -81,7 +57,7 @@
 <body>
     <div class="wrap">
 
-        <h1>HTML LIST - 국가데이터인프라(1단계) 관리자</h1>
+        <h1>HTML LIST</h1>
 
         <p class="guide">
             <a href="./index_imgs.html">이미지</a> <br>
@@ -104,9 +80,8 @@
                     <th scope="col">비고</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody id="htmlList">
                 <tr>
-                    <td></td>
                     <td>관리자 홈</td>
                     <td>대시보드</td>
                     <td></td>
@@ -134,7 +109,6 @@
                     <td></td>
                 </tr>
                 <tr>
-                    <td></td>
                     <td>모니터링</td>
                     <td>통계관리</td>
                     <td></td>
@@ -150,1063 +124,6 @@
                     </td>
                     <td></td>
                 </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>로그관리</td>
-                    <td>사용자 접속 로그</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-MONITOR-03-001.html" target="ndi_admin"></a></td>
-                    <td>12/13</td>
-                    <td>12/19</td>
-                    <td>12/20</td>
-                    <td>
-                        12/23<br>
-                        검색 label - 타이틀 변경<br>
-                        달력 시작일/종료일 분리<br><br>
-
-                        12/26<br>
-                        LNB 대시보드 메뉴 삭제
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>사용자 콘텐츠 이용로그</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-MONITOR-03-002.html" target="ndi_admin"></a></td>
-                    <td>12/13</td>
-                    <td>12/19</td>
-                    <td>12/20</td>
-                    <td>
-                        12/23<br>
-                        검색 label - 타이틀 변경<br>
-                        달력 시작일/종료일 분리<br><br>
-
-                        12/26<br>
-                        검색 옵션 위치 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>시스템 관리</td>
-                    <td>검색 관리</td>
-                    <td>색인관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-SYSTEM-02-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/16</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>태스크 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-SYSTEM-03-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/16</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-SYSTEM-03-002.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/16</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        스케줄 직접 입력 행 삭제<br><br>
-
-                        12/26<br>
-                        검색 옵션 ui 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>플랫폼관리</td>
-                    <td>빅데이터 플랫폼 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BC-01-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/16</td>
-                    <td>12/18</td>
-                    <td>
-                        12/26일<br>
-                        '빅데이터 센터 코드' 행 삭제<br>
-                        빅데이터 플랫폼 정보 팝업 수정
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BC-01-002.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>기관정보</td>
-                    <td>연계기관정보관리</td>
-                    <td>조회</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BC-02-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/26<br>
-                        모달창 내용 변경<br>
-                        NDI-M-BC-01-001 - '빅데이터 플랫폼 정보 팝업' 과 동일
-                    </td>
-                    <td>(연계기관담당자 Only)</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BC-02-002.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td>(연계기관담당자 Only)</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>연계 관리</td>
-                    <td>연계 현황</td>
-                    <td>리포팅 내려받기</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-API-01-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        데이터 타입 / 연계 상태 -> checkbox 에서 radio 로 변경<br>
-                        데이터타입/연계상태 행 병합<br>
-                        달력 시작일/종료일 분리<br><br>
-
-                        12/26<br>
-                        목록 하단 버튼 삭제<br>
-                        목록 내 체크박스 삭제<br>
-                        공개여부 설정 추가<br>
-                        상세 보기 기능 추가<br>
-                        연계 상세 정보 팝업 추가<br><br>
-
-                        12/30<br>
-                        데이터타입 '반정형'항목 추가<br>
-                        연계 상태 필터 삭제 및 공개여부 필터 추가<br>
-                        검색 셀렉션 삭제<br>
-                        연계현황정보요약 수정<br>
-                        연계현황 테이블 수정<br>
-                        연계현황 테이블 공개여부 항목 삭제<br>
-                        연계현황 안내 모달 삭제
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>연계 데이터 목록관리</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><s><a href="NDI-M-API-02-001.html" target="ndi_admin"></a></s></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/20<br>
-                        페이지 삭제 - 연계현황페이지에 기능 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>메타데이터 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-API-03-001.html" target="ndi_admin"></a></td>
-                    <td>12/13</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        데이터생산일/수집일시 삭제<br>
-                        수집기간 추가<br>
-                        상품유형/데이터 타입 행 병합<br>
-                        달력 시작일/종료일 분리<br><br>
-
-                        12/26<br>
-                        상세보기 팝업 추가<br>
-                        검색 옵션 - 상품 유형 | 데이터 타입 위치 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>상세조회</td>
-                    <td></td>
-                    <td></td>
-                    <td><s><a href="NDI-M-API-03-002.html" target="ndi_admin"></a></s></td>
-                    <td>12/13</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/20<br>
-                        페이지 삭제 - 팝업으로 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>사용자 관리</td>
-                    <td>회원관리</td>
-                    <td>일반회원관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-01-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        활동유형/간편인증/정보수신 라디오 버튼 변경<br>
-                        상태/활동유형 행 병합<br>
-                        간편인증/정보수신 행 병합<br>
-                        가입일/최종접속일 삭제<br>
-                        가입기간 추가<br><br>
-
-                        12/26<br>
-                        검색 옵션 위치 변경<br>
-                        상세 필터 - 상태 옵션 변경<br>
-                        팝업 제목 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>사업자회원관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-01-002.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/26<br>
-                        검색 옵션 위치 변경<br>
-                        상세 필터 - 상태 옵션 변경<br>
-                        팝업 제목 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>관리자 계정 관리</td>
-                    <td>관리자 계정 등록</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-02-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        계정생성일/최종접속일 삭제<br>
-                        가입기간 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-02-003.html" target="ndi_admin"></a></td>
-                    <td>12/13</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>개인정보조회이력</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-02-002.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        조회일 삭제<br>
-                        가입기간 추가<br><br>
-
-                        12/26<br>
-                        조회기간으로 명칭 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>연계기관 담당자 등록</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-03-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        계정생성일/최종접속일 삭제<br>
-                        가입기간 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-03-002.html" target="ndi_admin"></a></td>
-                    <td>12/13</td>
-                    <td>12/17</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>데이터거래사협회 담당자 등록</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-04-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/18</td>
-                    <td>12/20</td>
-                    <td>
-                        12/23<br>
-                        계정생성일/최종접속일 삭제<br>
-                        가입기간 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-04-002.html" target="ndi_admin"></a></td>
-                    <td>12/13</td>
-                    <td>12/18</td>
-                    <td>12/20</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>권한관리</td>
-                    <td>사용자 권한관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-05-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/18</td>
-                    <td>12/20</td>
-                    <td>
-                        12/24<br>
-                        lnb 수정<br><br>
-
-                        12/30<br>
-                        메뉴명 및 lnb 메뉴 구조 변경<br>
-                        운영담당자 -> 관리자 명칭 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>권한관리 이력</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-05-002.html" target="ndi_admin"></a></td>
-                    <td>12/24</td>
-                    <td>12/24</td>
-                    <td>12/24</td>
-                    <td>
-                        12/30<br>
-                        페이지 네이션 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>협회 담당자 조회</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-07-002.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/18</td>
-                    <td>12/20</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>데이터거래사 관리</td>
-                    <td>승인 요청</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-UM-07-001.html" target="ndi_admin"></a></td>
-                    <td>12/12</td>
-                    <td>12/18</td>
-                    <td>12/20</td>
-                    <td>
-                        12/23<br>
-                        회원유형/승인여부 라디오 버튼 변경<br>
-                        각 기간 조회를 셀렉트 박스로 병합
-                    </td>
-                    <td>(데이터거래사협회 담당자Only)</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>게시물 관리</td>
-                    <td>메인관리</td>
-                    <td>팝업관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-01-001.html" target="ndi_admin"></a></td>
-                    <td>12/9</td>
-                    <td>12/9</td>
-                    <td>12/10</td>
-                    <td>
-                        12/20<br>
-                        시작일/종료일 -> '게시기간'으로 통합<br><br>
-
-                        12/23<br>
-                        상태 라디오 버튼으로 변경<br>
-                        상태/게시기간 행 병합
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-01-002.html" target="ndi_admin"></a></td>
-                    <td>12/9</td>
-                    <td>12/9</td>
-                    <td>12/10</td>
-                    <td>
-                        12/18<br>
-                        파일첨부 안내 힌트 팝업으로 제공<br><br>
-
-                        12/26<br>
-                        텍스트 변경 : 기간 설정 안함 -> 무한 게시
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-01-003.html" target="ndi_admin"></a></td>
-                    <td>12/9</td>
-                    <td>12/9</td>
-                    <td>12/10</td>
-                    <td>
-                        12/26<br>
-                        텍스트 변경 : 기간 설정 안함 -> 무한 게시
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>배너관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-02-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        12/20<br>
-                        시작일/종료일 -> '게시기간'으로 통합<br><br>
-
-                        12/26<br>
-                        검색 옵션 위치 변경<br>
-                        상태 검색 옵션 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-02-002.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        12/18<br>
-                        placeholder 수정<br>
-                        파일첨부 안내 힌트 팝업으로 제공<br><br>
-
-                        12/26<br>
-                        텍스트 변경 : 기간 설정 안함 -> 무한 게시<br>
-                        정렬 순서 목록에 체크 박스 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-02-003.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        12/26<br>
-                        텍스트 변경 : 기간 설정 안함 -> 무한 게시<br>
-                        정렬 순서 목록에 체크 박스 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>관리자 게시물 관리</td>
-                    <td>공지사항관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-03-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        12/23<br>
-                        상태 라디오 버튼으로 변경<br>
-                        검색 label 변경 : 등록일 -> 공지기간<br>
-                        상태/공지기간 행 병합
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-03-002.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        12/18<br>
-                        알림발송 [미발송] 기본값 설정<br>
-                        미발송 시 [알림대상그룹] 비활성화<br>
-                        파일첨부 안내 힌트 팝업으로 제공<br><br>
-
-                        1/3<br>
-                        제목영역 '상단 고정 게시' 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-03-003.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        1/3<br>
-                        제목영역 '상단 고정 게시' 추가
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>이벤트관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-04-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td>
-                        12/20<br>
-                        시작일/종료일 -> '이벤트기간'으로 통합<br><br>
-
-                        12/23<br>
-                        상태 추가 <br>
-                        상태 label 값 변경<br>
-                        이벤트 기간 -> 공지기간으로 변경<br>
-                        시작일/종료일 분리
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-04-002.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td>
-                        12/18<br>
-                        파일첨부 안내 힌트 팝업으로 제공<br><br>
-
-                        12/20<br>
-                        첨부파일 안내 메시지
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-04-003.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td>
-                        12/20<br>
-                        첨부파일 안내 메시지
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>FAQ 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-05-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-05-002.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td>NDI-M-BOARD-05-003</td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td>NDI-M-BOARD-05-002 과 동일</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>정책.지침 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-12-001.html" target="ndi_admin"></a></td>
-                    <td>1/3</td>
-                    <td>1/3</td>
-                    <td></td>
-                    <td></td>
-                    <td>1/2일 신규 추가</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-12-002.html" target="ndi_admin"></a></td>
-                    <td>1/3</td>
-                    <td>1/3</td>
-                    <td></td>
-                    <td></td>
-                    <td>1/2일 신규 추가</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>데이터활용사례관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-06-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td>
-                        12/23 <br>
-                        타이틀 변경 : 등록일 -> 등록기간
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>사용자 게시물 관리</td>
-                    <td>Q&A 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-07-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>답변등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-07-002.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>12/18</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>데이터 요청 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-08-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/13</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        구분 -> 거래사 지정 타이틀 변경<br>
-                        거래사 지정 라디오 버튼 변경
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>신고 관리</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BOARD-11-001.html" target="ndi_admin"></a></td>
-                    <td>12/10</td>
-                    <td>12/13</td>
-                    <td>12/18</td>
-                    <td>
-                        12/23<br>
-                        구분/메뉴 라이도 버튼으로 변경<br>
-                        구분/사유 행 병합<br>
-                        기간 조회 병합<br>
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>코드 관리</td>
-                    <td>공통코드관리</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-CODE-01-001.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-CODE-01-002.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>표준화관리</td>
-                    <td>표준화사전</td>
-                    <td>표준도메인</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-001.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-004.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td>
-                        12/30<br>
-                        입력 폼 안내 메세지 수정
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-005.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>표준단어</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-002.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-006.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-007.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/10</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>표준용어</td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-003.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>등록</td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-008.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td>
-                        12/30<br>
-                        입력 폼 안내 메세지 수정
-                    </td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td>수정</td>
-                    <td></td>
-                    <td><a href="NDI-M-BM-02-009.html" target="ndi_admin"></a></td>
-                    <td>12/11</td>
-                    <td>12/11</td>
-                    <td>12/12</td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>공통</td>
-                    <td>header/footer</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td><a href="NDI-M-COMMON-01.html" target="ndi_admin"></a></td>
-                    <td>12/14</td>
-                    <td>12/20</td>
-                    <td>12/20</td>
-                    <td>
-                        12/20<br>
-                        footer - 연계 빅데이터 플랫폼 클릭 시 NDI-U-INTRO-05-001 연결<br><br>
-
-                        12/24<br>
-                        달력 컨포넌트 추가(12/26일 디자인 적용)<br><br>
-
-                        12/26<br>
-                        로고 옆 뱃지 추가<br><br>
-
-                        12/30<br>
-                        gnb 메뉴 싱크<br><br>
-
-                        1/2<br>
-                        gnb 마크업 및 배경 수정
-                    </td>
-                    <td></td>
-                </tr>
             </tbody>
         </table>
 
@@ -1217,17 +134,21 @@
     </div>
 
     <script>
-        const list = document.querySelector("table tbody");
+        const list = document.getElementById("htmlList");
+        const rowsNum = list.rows.length;
         let countPage = 0;
 
-        for (let i = 0; i < list.rows.length; i++) {
+        for (let i = 0; i < rowsNum; i++) {
+            const listRows = list.rows[i];
+
             //첫번째 셀 넘버링
-            const firstCell = list.rows[i].cells[0];
-            firstCell.innerText = i + 1;
+            const td = document.createElement("td");
+            td.innerText = i + 1;
+            listRows.prepend(td);
 
 
             //링크 추출 후 텍스트 입력 
-            const anchor = list.rows[i].cells[6].getElementsByTagName('a');
+            const anchor = listRows.cells[6].getElementsByTagName('a');
 
             if (anchor[0]) {
                 const anchorValue = anchor[0].getAttribute('href');
@@ -1236,17 +157,16 @@
 
 
             //완료 개수 체크
-            const complete = list.rows[i].cells[8].innerText;
+            const complete = listRows.cells[8].innerText;
             if (complete) {
                 countPage++;
             }
         }
 
-        const pageAllNum = list.rows.length;
         const pageProgressNum = countPage;
 
-        document.getElementById('pageOfProgress').innerText = countPage + ' / ' + pageAllNum;
-        document.getElementById('rateOfProgress').innerText = Math.round(countPage / pageAllNum * 100);
+        document.getElementById('pageOfProgress').innerText = countPage + ' / ' + rowsNum;
+        document.getElementById('rateOfProgress').innerText = Math.round(countPage / rowsNum * 100);
     </script>
 </body>
 
