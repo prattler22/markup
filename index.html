@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>publishing(html) list</title>
+    <title>publishing list - 국가데이터인프라(1단계) 관리자</title>
     <style>
         .wrap {
             padding: 1rem
@@ -60,7 +60,7 @@
         <h1>HTML LIST</h1>
 
         <p class="guide">
-            <a href="./index_imgs.html">이미지</a> <br>
+            <a href="./list_img.html">images</a>
         </p>
 
         <table>
@@ -80,7 +80,7 @@
                     <th scope="col">비고</th>
                 </tr>
             </thead>
-            <tbody id="htmlList">
+            <tbody id="tbodyList">
                 <tr>
                     <td>관리자 홈</td>
                     <td>대시보드</td>
@@ -134,7 +134,7 @@
     </div>
 
     <script>
-        const list = document.getElementById("htmlList");
+        const list = document.getElementById("tbodyList");
         const rowsNum = list.rows.length;
         let countPage = 0;
 
