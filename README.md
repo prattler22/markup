@@ -224,17 +224,6 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 }
 ```
 
-선택자를 그룹핑하는 경우 쉼표(`,`) 뒤에서 줄바꿈합니다.
-
-```css
-/* X */
-.selector1, .selector2 { ... }
-
-/* O */
-.selector1,
-.selector2 { ... }
-```
-
 속성값에는 큰 따옴표(`" "`)를 사용합니다.
 
 ```css
@@ -408,10 +397,10 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 계산식에 괄호를 사용합니다.
 
 ```css
-/* Bad example */
+/* X */
 .element { margin: 10px 0 @variable*2 10px; }
 
-/* Good example */
+/* O */
 .element { margin: 10px 0 (@variable * 2) 10px; }
 ```
 
@@ -420,13 +409,13 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 주석은 맥락이나 목적을 전달한다. 단순히 구성요소나 클래스 이름을 반복할 필요는 없다. scss 파일은 한 줄 주석(`//`) 사용이 가능하지만 CSS 파일에 남지 않습니다.
 
 ```css
-/* Bad example */
+/* X */
 /* Modal */
 .modal {
     ...
 }
 
-/* Good example */
+/* O */
 /* Modal - Wrapping element for .modal-header, .modal-body, modal-footer */
 .modal {
     ...
@@ -442,14 +431,14 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 * 변화 또는 상태를 나타내는 추가 클래스는 블록 또는 요소 이름에 더블 대시(`--`)를 붙여 작명합니다.
 
 ```css
-/* Bad example */
+/* X */
 .sform { ... }
 .themeLezhin { ... }
 .sf-input { ... }
 .sf-btn { ... }
 .SearchformButtonDisabled { ... }
 
-/* Good example */
+/* O */
 .blockName { ... }                              // Block
 .blockName__elementName { ... }                 // Element
 .blockName--modifierName { ... }                // Block Modifier
@@ -461,15 +450,15 @@ HTML 표준을 준수하고 시맨틱한 문서를 작성하기 위해 노력하
 * 타입 선택자를 사용하지 않습니다. 클래스 선택자를 사용합니다.
 * 선택자 우선순위(specificity)를 높이는 조합과 중첩을 사용하지 않습니다. 조합과 중첩은 3회를 초과하지 않습니다.
 * 일반적으로 발생하는 구성요소에는 여러 속성 선택기(예: \[class^="..."\])를 사용하지 마십시오. 브라우저 성능은 이러한 영향을 받는 것으로 알려져 있습니다.
-* 여러 클래스를 묶을 때 쉼표 후 개행합니다.
+* 여러 클래스를 묶을 때 쉼표(',')후 개행합니다.
 
 ```css
-/* Bad example */
+/* x */
 section.tweet > header { ... }
 section.tweet > header.tweet__header { ... }
 .tweet > .tweet__header, .tweet > .tweet__username { ... }
 
-/* Good example */
+/* O */
 .tweet { ... }
 .tweet__header,
 .tweet__username { ... }
